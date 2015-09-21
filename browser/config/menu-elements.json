@@ -13,6 +13,14 @@
             "domains",
             "repos"
 		],
+        "its": [
+            "companies",
+            "contributors",
+            "countries",
+            "domains",
+            "repos",
+            "states"
+	    ],
 		"qaforums": [
             "contributors"
 		],
