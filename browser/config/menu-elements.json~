@@ -1,0 +1,32 @@
+{
+    "menu":{
+	"scm": [
+            "companies",
+            "companies-summary",
+            "contributors",
+            "domains",
+            "repos"
+	],
+	"mls": [
+            "companies",
+            "contributors",
+            "domains",
+            "repos"
+	],
+	"qaforums": [
+            "contributors"
+	],
+	"studies": [
+            "demographics"
+	],
+	"scr": [
+            "companies",
+            "companies-summary",
+            "repos"
+	],
+    "meetup": [
+            "past_meetings"
+    ],
+    "releases":[],
+    "threads_site":"https://groups.google.com/"
+}

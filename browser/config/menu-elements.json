@@ -1,0 +1,31 @@
+{
+	"menu":{
+		"scm": [
+            "companies",
+            "companies-summary",
+            "contributors",
+            "domains",
+            "repos"
+		],
+		"mls": [
+            "companies",
+            "contributors",
+            "domains",
+            "repos"
+		],
+		"qaforums": [
+            "contributors"
+		],
+		"studies": [
+            "demographics"
+		],
+    	"meetup": [
+            "past_meetings"
+    	],
+		"project_map-OFF": [],
+    	"filter": ["scm:company+country","its:company+country"],
+    	"filter_companies":["Liferay","non Liferay"]
+   },
+   "releases":[],
+   "threads_site":"https://groups.google.com/"
+}

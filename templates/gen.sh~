@@ -25,6 +25,7 @@ python apply_template.py --template body.template.events --content scm/events.tm
 # its
 python apply_template.py --template body.template --content its/overview.tmpl > ../browser/its.html
 python build_panel.py --template body.template --content common/list-of-filters.tmpl --conf conf/main.conf --panel its-companies > ../browser/its-companies.html
+python build_panel.py --template body.template --content common/list-of-filters.tmpl --conf conf/main.conf --panel its-organizations > ../browser/its-organizations.html
 python apply_template.py --template body.template --content its/contributors.tmpl > ../browser/its-contributors.html
 python build_panel.py --template body.template --content common/list-of-filters.tmpl --conf conf/main.conf --panel its-countries > ../browser/its-countries.html
 python build_panel.py --template body.template --content common/list-of-filters.tmpl --conf conf/main.conf --panel its-domains > ../browser/its-domains.html
@@ -60,6 +61,7 @@ python apply_template.py --template body.template --content its/states.tmpl > ..
 # mls
 python apply_template.py --template body.template --content mls/overview.tmpl > ../browser/mls.html
 python build_panel.py --template body.template --content common/list-of-filters.tmpl --conf conf/main.conf --panel mls-companies > ../browser/mls-companies.html
+python build_panel.py --template body.template --content common/list-of-filters.tmpl --conf conf/main.conf --panel mls-organizaitons > ../browser/mls-organizations.html
 python apply_template.py --template body.template --content mls/contributors.tmpl > ../browser/mls-contributors.html
 python build_panel.py --template body.template --content common/list-of-filters.tmpl --conf conf/main.conf --panel mls-countries > ../browser/mls-countries.html
 python build_panel.py --template body.template --content common/list-of-filters.tmpl --conf conf/main.conf --panel mls-domains > ../browser/mls-domains.html
@@ -74,7 +76,9 @@ python build_panel.py --template body.template --content common/list-of-filters.
 # scm
 python apply_template.py --template body.template --content scm/overview.tmpl > ../browser/scm.html
 python build_panel.py --template body.template --content common/list-of-filters.tmpl --conf conf/main.conf --panel scm-companies > ../browser/scm-companies.html
+python build_panel.py --template body.template --content common/list-of-filters.tmpl --conf conf/main.conf --panel scm-organizations > ../browser/scm-organizations.html
 python apply_template.py --template body.template --content scm/companies-summary.tmpl > ../browser/scm-companies-summary.html
+python apply_template.py --template body.template --content scm/companies-summary.tmpl > ../browser/scm-organizations-summary.html
 python apply_template.py --template body.template --content scm/contributors.tmpl > ../browser/scm-contributors.html
 python build_panel.py --template body.template --content common/list-of-filters.tmpl --conf conf/main.conf --panel scm-countries > ../browser/scm-countries.html
 python build_panel.py --template body.template --content common/list-of-filters.tmpl --conf conf/main.conf --panel scm-domains > ../browser/scm-domains.html
@@ -86,16 +90,16 @@ python build_panel.py --template body.template --content common/list-of-filters.
 #python apply_template.py --template body.template --content scr_github/contributors.tmpl > ../browser/scr-contributors.html
 
 #scr (gerrit)
-#python apply_template.py --template body.template --content scr_gerrit/overview.tmpl > ../browser/scr.html
-#python apply_template.py --template body.template --content scr_gerrit/contributors.tmpl > ../browser/scr-contributors.html
+python apply_template.py --template body.template --content scr_gerrit/overview.tmpl > ../browser/scr.html
+python apply_template.py --template body.template --content scr_gerrit/contributors.tmpl > ../browser/scr-contributors.html
 
 #scr (standard)
-#python apply_template.py --template body.template --content scr/backlog.tmpl > ../browser/scr-backlog.html
-#python build_panel.py --template body.template --content common/list-of-filters.tmpl --conf conf/main.conf --panel scr-companies > ../browser/scr-companies.html
-#python build_panel.py --template body.template --content common/list-of-filters.tmpl --conf conf/main.conf --panel scr-companies > ../browser/scr-organizations.html
-#python build_panel.py --template body.template --content common/list-of-filters.tmpl --conf conf/main.conf --panel scr-countries > ../browser/scr-countries.html
-#python build_panel.py --template body.template --content common/list-of-filters.tmpl --conf conf/main.conf --panel scr-projects > ../browser/scr-projects.html
-#python build_panel.py --template body.template --content common/list-of-filters.tmpl --conf conf/main.conf --panel scr-repos > ../browser/scr-repos.html
+python apply_template.py --template body.template --content scr/backlog.tmpl > ../browser/scr-backlog.html
+python build_panel.py --template body.template --content common/list-of-filters.tmpl --conf conf/main.conf --panel scr-companies > ../browser/scr-companies.html
+python build_panel.py --template body.template --content common/list-of-filters.tmpl --conf conf/main.conf --panel scr-companies > ../browser/scr-organizations.html
+python build_panel.py --template body.template --content common/list-of-filters.tmpl --conf conf/main.conf --panel scr-countries > ../browser/scr-countries.html
+python build_panel.py --template body.template --content common/list-of-filters.tmpl --conf conf/main.conf --panel scr-projects > ../browser/scr-projects.html
+python build_panel.py --template body.template --content common/list-of-filters.tmpl --conf conf/main.conf --panel scr-repos > ../browser/scr-repos.html
 
 # wiki
 #python apply_template.py --template body.template --content wiki/overview.tmpl > ../browser/wiki.html
