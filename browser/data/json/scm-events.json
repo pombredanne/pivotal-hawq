@@ -1,1 +1,1 @@
-{"goneauthors": {"email": [], "last_activity": [], "name": [], "uuid": []}, "newcomers": {"date": "2015-09-09 12:23:47", "email": "rvs@apache.org", "name": "Roman Shaposhnik", "uid": "adba619b03623fc723faf36d8a0951cabb7413bc"}}
+{"goneauthors": {"email": [], "last_activity": [], "name": [], "uuid": []}, "newcomers": {"date": ["2015-09-26 09:23:55", "2015-09-09 12:23:47"], "email": ["lei_chang@apache.org", "rvs@apache.org"], "name": ["Lei Chang", "Roman Shaposhnik"], "uid": ["d11171d703b3441a7356b80f8d4bac7aef44ca8b", "adba619b03623fc723faf36d8a0951cabb7413bc"]}}
