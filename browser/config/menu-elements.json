@@ -1,23 +1,23 @@
 {
 	"menu":{
 		"scm": [
-            "companies",
-            "companies-summary",
             "contributors",
             "domains",
+            "organizations",
+            "organizations-summary",
             "repos"
 		],
 		"mls": [
-            "companies",
             "contributors",
             "domains",
+            "organizations",
             "repos"
 		],
         "its": [
-            "companies",
             "contributors",
             "countries",
             "domains",
+            "organizations",
             "repos",
             "states"
 	    ],
