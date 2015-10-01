@@ -10,7 +10,6 @@
 		"mls": [
             "contributors",
             "domains",
-            "organizations",
             "repos"
 		],
         "its": [
