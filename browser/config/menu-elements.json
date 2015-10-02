@@ -26,11 +26,9 @@
             "demographics"
 		],
     	"meetup": [
+            "next_meetings",
             "past_meetings"
-    	],
-		"project_map-OFF": [],
-    	"filter": ["scm:company+country","its:company+country"]
+    	]
    },
-   "releases":[],
    "threads_site":"https://groups.google.com/"
 }
