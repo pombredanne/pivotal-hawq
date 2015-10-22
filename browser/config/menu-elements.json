@@ -28,7 +28,8 @@
     	"meetup": [
             "next_meetings",
             "past_meetings"
-    	]
+    	],
+        "confluence": []
    },
    "threads_site":"https://groups.google.com/"
 }
